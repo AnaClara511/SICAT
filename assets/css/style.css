@@ -135,3 +135,27 @@ section{
     font-size: 24px;
 }
 
+/* footer */
+footer{
+    padding: 0px 120px;
+    color: white;
+    font-family: "Open Sans";
+    background: linear-gradient(180deg, rgba(0, 0, 0, 0.00) 0%, rgba(0, 0, 0, 0.20) 100%), linear-gradient(105deg, #001A5D 27.56%, #0037C3 78.25%, #0051EF 99.41%);
+    height: 390px;
+    justify-content: space-between;
+    align-items: center;
+}
+footer span{
+    display: block;
+}
+span i{
+    margin-right: 10px;
+}
+
+.contatos{
+    padding-left: 10px;
+    max-height: 60px;
+    border-left: solid 3px white;
+    flex-direction: column;
+    justify-content: space-around;
+}
